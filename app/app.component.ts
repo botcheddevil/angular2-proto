@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
-import { ThreeColumnLayoutComponent } from './templates/layouts/three-column.layout.component';
+import { LoginLayoutComponent } from './templates/layouts/login.layout.component';
 
 @Component({
     selector: 'my-app',
-    directives: [ThreeColumnLayoutComponent],
-    template: '<niit-layout-three-column><h3 brand>LOGO</h3></niit-layout-three-column>'
+    directives: [LoginLayoutComponent],
+    templateUrl: ['app/app.component.html']
 })
 export class AppComponent {
 }
