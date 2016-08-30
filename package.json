@@ -15,7 +15,8 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "webdriver:update": "webdriver-manager update"
+    "webdriver:update": "webdriver-manager update",
+    "clean" : "rm ./app/*.js. ./app/*.js.map ./app/components/general/*.js.map ./app/components/general/*.js ./app/components/layouts/*.js.map ./app/components/layouts/*.js"
   },
   "keywords": [],
   "author": "",
