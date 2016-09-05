@@ -6,7 +6,7 @@ import { CHART_DIRECTIVES } from 'angular2-highcharts';
 @Component({
     selector: 'my-fixed-header-footer',
     directives: [FixedHeaderFooterLayoutComponent, CHART_DIRECTIVES],
-    templateUrl: 'app/components/general/fixed-header-footer.component.html'
+    templateUrl: 'app/components/example/fixed-header-footer.component.html'
 })
 export class FixedHeaderFooterComponent {
     constructor() {
