@@ -8,4 +8,7 @@ import { LoginLayoutComponent } from '../layouts/login.layout.component';
     templateUrl: 'app/components/example/login.component.html'
 })
 export class LoginComponent {
+    buttonSignIn() {
+        console.log("sign in button pressed");
+    }
 }

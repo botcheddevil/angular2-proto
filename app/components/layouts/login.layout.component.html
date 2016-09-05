@@ -11,7 +11,7 @@
             <input type="checkbox" value="remember-me"><ng-content select="remember-me"></ng-content>
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit"><ng-content select="sign-in"></ng-content></button>
+        <button class="btn btn-lg btn-primary btn-block" type="button" (click)="buttonSignIn()"><ng-content select="sign-in"></ng-content></button>
       </form>
 
 </div> <!-- /container -->

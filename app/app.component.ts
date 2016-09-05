@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
-import { LoginComponent } from './components/general/login.component';
-import { ThreeColumnComponent } from './components/general/three-column.component';
-import { FixedHeaderFooterComponent } from './components/general/fixed-header-footer.component';
+import { LoginComponent } from './components/example/login.component';
+import { ThreeColumnComponent } from './components/example/three-column.component';
+import { FixedHeaderFooterComponent } from './components/example/fixed-header-footer.component';
 
 @Component({
     selector: 'my-app',
-    directives: [FixedHeaderFooterComponent],
+    directives: [LoginComponent, FixedHeaderFooterComponent],
     templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
